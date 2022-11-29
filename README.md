@@ -14,7 +14,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/codycraven/go-grip"
+	"github.com/codycraven/grip"
 )
 
 func main() {

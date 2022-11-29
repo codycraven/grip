@@ -63,7 +63,7 @@ func Message(m string, w io.Writer, fn SignalHandler) SignalHandler {
 //      "os"
 //      "syscall"
 //
-//      "github.com/codycraven/go-grip"
+//      "github.com/codycraven/grip"
 //  )
 //
 //  func main() {
