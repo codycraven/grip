@@ -2,6 +2,8 @@
 
 A signal handling library for Go.
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/codycraven/grip.svg)](https://pkg.go.dev/github.com/codycraven/grip)
+
 ## Quickstart
 
 Add grip to the modules in your project:

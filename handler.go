@@ -49,10 +49,10 @@ func Message(m string, w io.Writer, fn SignalHandler) SignalHandler {
 // If you receive 6 as your exit code then you can determine which step failed
 // based on bitmasking:
 //
-//   1. 1 & 6 == 0 -> first ExitHandler passed
-//   2. 2 & 6 == 1 -> second ExitHandler failed
-//   3. 4 & 6 == 1 -> third ExitHandler failed
-//   4. 8 & 6 == 0 -> fourth ExitHandler passed
+//  - 1 & 6 == 0 -> first ExitHandler passed
+//  - 2 & 6 == 1 -> second ExitHandler failed
+//  - 4 & 6 == 1 -> third ExitHandler failed
+//  - 8 & 6 == 0 -> fourth ExitHandler passed
 //
 // A complete example:
 //
